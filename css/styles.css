@@ -1,3 +1,23 @@
+* {
+    border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
 body {
     display: flex;
+}
+
+.aside {
+    background-image: linear-gradient(pink, purple);
+    flex: 15%;
+}
+
+.main {
+    background-image: linear-gradient(yellow, green);
+    flex: 85%;
 }
