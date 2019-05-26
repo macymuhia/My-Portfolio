@@ -80,7 +80,7 @@ li a:active {
     visibility: hidden;
 }
 
-.main {
+.main-home {
     background-image: url("../images/love.jpg");
     background-size: cover;
     flex: 85%;
@@ -116,4 +116,32 @@ button {
     border-radius: 4%;
     border: none;
     font-size: 14px;
+}
+
+.main-projects {
+    background-image: linear-gradient(rgba(255, 192, 203, 0.281), rgba(255, 192, 203, 0.144));
+    background-size: cover;
+    flex: 85%;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.row img {
+    width: 450px;
+    height: 270px;
+}
+
+.left {
+    flex: 50%;
+    float: left;
+    margin: 20px 50px;
+}
+
+.right {
+    flex: 50%;
+    float: right;
+    margin: 20px 50px;
 }
