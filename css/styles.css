@@ -118,8 +118,15 @@ button {
     font-size: 14px;
 }
 
+.main-about-me {
+    background-image: url("../images/back/r56Iby.jpg");
+    background-size: cover;
+    flex: 85%;
+    padding: 50px;
+}
+
 .main-projects {
-    background-image: linear-gradient(rgba(165, 139, 144, 0.068), rgba(95, 77, 80, 0.144));
+    background-image: url("../images/back/r56Iby.jpg");
     background-size: cover;
     flex: 85%;
 }
