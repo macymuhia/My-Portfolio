@@ -76,8 +76,17 @@ li a:active {
     flex: 15%;
 }
 
+.home h4 {
+    visibility: hidden;
+}
+
 .main {
     background-image: url("../images/love.jpg");
     background-size: cover;
     flex: 85%;
+}
+
+.home-main {
+    text-align: center;
+    padding-top: 30px;
 }
