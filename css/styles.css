@@ -1,5 +1,5 @@
 * {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0px;
     padding: 0px;
 }
@@ -35,17 +35,44 @@ a {
 }
 
 nav ul {
-    margin: 100px 0px 100px 0px;
-    padding: 10px;
+    margin: 20px 0px 20px 0px;
+    padding: 50px 10px;
+}
+
+li {
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    padding: 15px;
+    line-height: 15px;
+    border-top: 1px solid gray;
+}
+
+li:last-child {
+    border-bottom: 1px solid gray;
+}
+
+a {
+    color: black;
+}
+
+li a:hover {
+    color: purple;
+    font-style: italic;
+}
+
+li a:active {
+    color: purple;
+    font-style: italic;
 }
 
 .aside p {
     text-align: center;
+    margin-top: 80px;
 }
 
 .aside {
     position: relative;
-    background-image: linear-gradient(pink, purple);
+    background-color: rgba(187, 196, 206, 0.089);
     flex: 15%;
 }
 
