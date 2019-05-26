@@ -44,11 +44,11 @@ li {
     margin-bottom: 20px; */
     padding: 15px;
     line-height: 15px;
-    border-top: 1px solid gray;
+    border-top: 1px solid rgba(128, 128, 128, 0.247);
 }
 
 li:last-child {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.247);
 }
 
 a {
@@ -100,6 +100,7 @@ li a:active {
 .home-main p {
     padding-top: 150px;
     margin-bottom: 100px;
+    font-size: 28px;
 }
 
 .home-main button {
@@ -110,3 +111,9 @@ li a:active {
     padding-top: 100px;
 }
 
+button {
+    background-color: rgba(187, 196, 206, 0.87);
+    border-radius: 4%;
+    border: none;
+    font-size: 14px;
+}
