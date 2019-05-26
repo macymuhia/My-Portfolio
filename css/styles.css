@@ -90,3 +90,23 @@ li a:active {
     text-align: center;
     padding-top: 30px;
 }
+
+.home-main h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.home-main p {
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+
+.home-main button {
+    padding: 15px 20px;
+}
+
+.home-main .button {
+    padding-top: 100px;
+}
+
