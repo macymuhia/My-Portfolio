@@ -113,7 +113,7 @@ li a:active {
 
 button {
     background-color: rgba(187, 196, 206, 0.87);
-    border-radius: 4%;
+    border-radius: 4px;
     border: none;
     font-size: 14px;
 }
@@ -122,7 +122,14 @@ button {
     background-image: url("../images/back/r56Iby.jpg");
     background-size: cover;
     flex: 85%;
-    padding: 50px;
+    padding: 30px;
+}
+
+.personal-profile, .skills, .experience, .education {
+    background-color: rgba(255, 255, 255, 0.733);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .main-projects {
