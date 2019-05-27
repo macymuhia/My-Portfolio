@@ -4,7 +4,8 @@
     padding: 0px;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -60,7 +61,12 @@ li a:hover {
     font-style: italic;
 }
 
-li a:active {
+.button button:hover {
+    color: purple;
+    font-style: italic;
+}
+
+.active {
     color: purple;
     font-style: italic;
 }
@@ -125,7 +131,10 @@ button {
     padding: 30px;
 }
 
-.personal-profile, .skills, .experience, .education {
+.personal-profile,
+.skills,
+.experience,
+.education {
     background-color: rgba(255, 255, 255, 0.733);
     margin: 10px;
     border-radius: 5px;
