@@ -107,13 +107,14 @@ li a:hover {
 .home-main h1 {
     font-size: 48px;
     margin-top: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .home-main p {
     padding-top: 150px;
     margin-bottom: 100px;
     font-size: 28px;
+    color: white;
 }
 
 .home-main button {
