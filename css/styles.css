@@ -138,10 +138,6 @@ button {
     padding: 30px;
 }
 
-.skills {
-    width: 300px;
-}
-
 .skills,
 .experience,
 .education,
@@ -159,7 +155,12 @@ button {
 }
 
 .row {
-    display: flex;
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+.rows {
+    display: inline-flex;
     margin-bottom: 50px;
 }
 
@@ -168,15 +169,29 @@ button {
     height: 270px;
 }
 
+.experience,
+.education {
+    width: 500px;
+}
+
+.experience h3,
+.experience summary,
+.experience p,
+.education h3,
+.education summary,
+.education p {
+    padding-bottom: 10px;
+}
+
 .left {
     flex: 50%;
-    float: left;
+    /* float: left; */
     margin: 20px 50px;
 }
 
 .right {
     flex: 50%;
-    float: right;
+    /* float: right; */
     margin: 20px 50px;
 }
 
