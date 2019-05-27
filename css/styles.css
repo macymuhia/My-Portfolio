@@ -148,6 +148,15 @@ button {
     padding: 10px;
 }
 
+.personal-profile h3 {
+    padding:
+}
+
+.personal-profile {
+    line-height: 40px;
+    font-size: 16px;
+}
+
 .main-projects {
     background-image: url("../images/back/r56Iby.jpg");
     background-size: cover;
@@ -180,7 +189,7 @@ button {
 .education h3,
 .education summary,
 .education p {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .left {
