@@ -131,10 +131,14 @@ button {
     padding: 30px;
 }
 
-.personal-profile,
+.skills {
+    width: 300px;
+}
+
 .skills,
 .experience,
-.education {
+.education,
+.personal-profile {
     background-color: rgba(255, 255, 255, 0.733);
     margin: 10px;
     border-radius: 5px;
@@ -176,4 +180,38 @@ button {
 
 .row figcaption {
     padding-top: 20px;
+}
+
+.main-contact-me {
+    background-image: url("../images/back/r56Iby.jpg");
+    background-size: cover;
+    flex: 85%;
+    text-align: center;
+}
+
+.main-contact-me h4,
+.main-contact-me p {
+    margin: 50px;
+}
+
+.main-contact-me p {
+    font-style: italic;
+    font-size: 28px;
+    /* color: purple; */
+}
+
+.main-contact-me img {
+    width: 720px;
+    height: 388px;
+    border-radius: 5px;
+}
+
+.main-contact-me h4 {
+    display: inline;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.contact-info {
+    margin-top: 50px;
 }
